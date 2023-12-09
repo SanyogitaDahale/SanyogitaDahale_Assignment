@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-0 p-0 box-border">
+  <header>
+    <!-- Navbar of Page -->
+
+    <!-- 1st navabr  -->
+    <nav class="relative container mx-auto p-2">
+      <div class="flex items-center justify-between">
+        <!-- Logo  -->
+        <div class="pt-1">
+          <img class="w-40" src="img/Screenshot 2023-12-04 185709.png" />
+        </div>
+        <!-- Menu Items  -->
+        <div class="hidden lg:flex space-x-4">
+          <a class="hover:cursor-pointer font-semibold" href="#">Courses <i
+              class="fa-solid fa-angle-down text-xs"></i></a>
+          <a class="hover:cursor-pointer font-semibold" href="#">Activities</a>
+          <a class="hover:cursor-pointer font-semibold" href="#">Offers</a>
+          <a class="hover:cursor-pointer font-semibold" href="#">About Us</a>
+          <a class="hover:cursor-pointer font-semibold" href="#">Contact US</a>
+        </div>
+        <!-- Buttons and Logins  -->
+        <div class="flex items-center">
+          <a class="lg:block hover:cursor-pointer hidden font-semibold" href="#">Log In</a>
+          <a href="#" class="p-2 m-2 rounded-lg baseline bg-brightPink hidden lg:block font-semibold text-white">Get
+            started</a>
+          <img class="h-11 w-32 hidden lg:block" src="img/Frame 21702.png" />
+        </div>
+
+        <!-- menu icon -->
+        <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- mobile menu  -->
+      <div class="lg:hidden">
+        <div id="menu"
+          class="relative flex-col items-center self-end py-10 mt-1 hidden space-y-4 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a class="hover:cursor-pointer" href="#">Courses<i class="fa-solid fa-angle-down text-xs mx-2"></i></a>
+          <a class="hover:cursor-pointer" href="#">Activities</a>
+          <a class="hover:cursor-pointer" href="#">Offers</a>
+          <a class="hover:cursor-pointer" href="#">About Us</a>
+          <a class="hover:cursor-pointer" href="#">Contact US</a>
+          <a class="md:block hover:cursor-pointer" href="#">Log In</a>
+          <a href="#" class="p-2 m-2 rounded-lg baseline bg-brightPink">Get started</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 2nd navbar  -->
+    <nav class="bg-lightYellow">
+      <div class="flex items-center justify-between p-3 mx-auto container">
+        <p class="text-DPurple lg:text-lg font-semibold">
+          You are Invited to Join this Batch
+        </p>
+        <a href="#" class="bg-BGreen p-2 lg:font-bold rounded-lg text-white">Accept & Proceed to Pay
+        </a>
+      </div>
+    </nav>
+
+    <!-- 3rd navbar  -->
+    <nav class="relative mx-auto container shadow-xl max-w-full lg:h-24 h-36">
+      <div class="flex items-center justify-between my-3 mx-auto container">
+        <a class="font-semibold lg:text-xl mx-5" href="#">
+          <i class="fa-solid fa-arrow-left mr-2"></i> Back</a>
+
+        <div class="hidden lg:block text-center">
+          <p class="text-DPurple lg:text-lg font-semibold mb-4">
+            Accepting Students
+          </p>
+          <a class="text-brightPink font-semibold ring-1 ring-brightPink px-4 py-2 rounded-3xl" href="#">Last date for
+            applying
+            <span class="text-brightPink font-bold">28 March, 2023</span></a>
+        </div>
+
+        <a class="lg:text-xl px-3 mr-3 py-2 mt-2 bg-DPurple rounded-xl text-white" href="#">Invite Your Friends
+          <i class="fa-regular fa-share-from-square bg-white text-black text-sm p-2 mx-2 rounded-full"></i></a>
+      </div>
+      <div class="lg:hidden text-center">
+        <p class="text-DPurple lg:text-lg font-semibold mb-4">
+          Accepting Students
+        </p>
+        <a class="text-brightPink font-semibold ring-1 ring-brightPink px-4 py-2 rounded-3xl" href="#">Last date for
+          applying
+          <span class="text-brightPink font-bold">28 March, 2023</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- --------------------------------------------------------------------------------  -->
+
+  <!-- Your course Section  -->
+  <section class="mx-auto container my-8">
+    <h1 class="font-bold text-xl mb-5">Your Course</h1>
+    <div class="lg:flex justify-between ring-1 ring-pink-400 rounded-lg p-3">
+      <div class="md:mx-0">
+        <img src="img/Rectangle 67.png" class="h-56 w-96 lg:w-80  mx-auto" />
+      </div>
+      <div class="mx-6 my-5 md:my-0">
+        <div class="flex items-center justify-between">
+          <h1 class="font-semibold text-2xl text-brightPink">Violin</h1>
+          <a class="bg-lightYellow rounded-lg p-1 font-semibold">Not Started</a>
+        </div>
+        <p class="my-2">
+          Learn to play violin with expert music teachers online at
+          Enthuziastic. Start from scratch and learn to play popular melodies.
+          Kids or adults, anybody can join this course and start learning
+          violin.
+        </p>
+        <div class="grid gap-4 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 my-4">
+          <div>
+            <i class="mr-2 fa-solid fa-check bg-brightPink text-white text-xs font-semibold p-1 rounded-full"></i>
+            <span class="font-semibold"> 120 live</span> tutoring sessions
+          </div>
+
+          <div>
+            <i class="mr-2 fa-solid fa-check bg-brightPink text-white text-xs font-semibold p-1 rounded-full"></i>
+            Access on<span class="font-semibold"> mobile and web</span>
+          </div>
+          <div>
+            <i class="mr-2 fa-solid fa-check bg-brightPink text-white text-xs font-semibold p-1 rounded-full"></i>
+            Access on<span class="font-semibold"> mobile and web</span>
+          </div>
+          <div>
+            <i class="mr-2 fa-solid fa-check bg-brightPink text-white text-xs font-semibold p-1 rounded-full"></i><span
+              class="font-semibold"> 12 Module</span>
+          </div>
+          <div>
+            <i class="mr-2 fa-solid fa-check bg-brightPink text-white text-xs font-semibold p-1 rounded-full"></i><span
+              class="font-semibold"> Certificate </span>of completion
+          </div>
+          <div>
+            <i class="mr-2 fa-solid fa-check bg-brightPink text-white text-xs font-semibold p-1 rounded-full"></i><span
+              class="font-semibold"> Certificate </span>of completion
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:flex items-center justify-between my-14 text-center bg-DPurple rounded-lg px-5 py-2">
+      <div class="font-semibold text-white text-lg my-5 md:my-2 text-left">
+        <span class="py-2 px-3 mr-2 bg-white text-DPurple rounded-full">24</span>
+        Total Sessions
+      </div>
+      <div class="font-semibold text-white text-lg my-5 md:my-2 text-left">
+        <span class="py-2 px-3 mr-2 bg-white text-DPurple rounded-full">14</span>
+        Sessions not Started
+      </div>
+
+      <div class="font-semibold text-white text-lg my-5 md:my-2 text-left">
+        <span class="py-2 px-3 mr-2 bg-white text-DPurple rounded-full">10</span>
+        Sessions Completed
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum Section  -->
+  <section>
+    <div>
+      <div class="mx-auto container mb-2 md:flex">
+
+        <div class=" lg:w-1/3 md:w-2/4 ">
+
+          <div class="bg-lightYellow py-3 text-center rounded-t-lg">
+            <h2 class="font-semibold text-lg">Batch No. - 1234567</h2>
+          </div>
+          <div class="px-10 py-5 bg-pink-100 rounded-b-lg ">
+            <div class="grid gap-4">
+              <div class="text-lg flex items-center"><img src="img/icons8-video-24.png" class="mr-2"> Sessions <Span
+                  class="font-semibold text-xl"> : 24</Span>
+              </div>
+              <div class="text-lg flex items-center"><img src="img/Vector (1).png" class="mr-2"> Max. Learners <Span
+                  class="font-semibold text-xl">
+                  :4</Span>
+              </div>
+              <div class="text-lg flex items-center"><img src="img/Vector (2).png" class="mr-2">Language <Span
+                  class="font-semibold text-xl"> :
+                  English</Span>
+              </div>
+              <div class="text-lg flex items-center "><img src="img/user.png" class="mr-2">Age Group<Span
+                  class="font-semibold text-xl"> : 12 to
+                  24</Span>
+              </div>
+              <div class="text-lg flex items-center"><img src="img/Vector (3).png" class="mr-2"> Start Date<Span
+                  class="font-semibold text-xl"> : 10 Aug
+                  2023</Span>
+              </div>
+            </div>
+            <hr class="h-1 bg-Hgray  rounded-xl my-5">
+            <div>
+              <h2 class="text-lg">Schedule <span class="font-semibold"> (Sessions/ Week - 4)</span></h2>
+              <div class="flex text-center justify-around items-baseline">
+                <div class="text-xs text-gray-500 bg-white ring-1 ring-gray-400 p-2 rounded-lg">Su</div>
+                <div class="text-xs text-gray-500 bg-white ring-1 ring-gray-400 p-2 rounded-lg">M</div>
+                <div class="text-xs">
+                  <p class="text-white bg-brightPink rounded-lg py-2">T</p>
+                  <p class="text-center">08:00 <br> AM</p>
+                </div>
+                <div class="text-xs text-gray-500 bg-white ring-1 ring-gray-400 p-2 rounded-lg">W</div>
+                <div class="text-xs">
+                  <p class="text-white bg-brightPink rounded-lg py-2">Th</p>
+                  <p class="text-center">08:00 <br> AM</p>
+                </div>
+                <div class="text-xs text-gray-500 bg-white ring-1 ring-gray-400 p-2 rounded-lg">F</div>
+                <div class="text-xs text-gray-500 bg-white ring-1 ring-gray-400 p-2 rounded-lg">S</div>
+              </div>
+            </div>
+            <hr class="h-1 bg-Hgray  rounded-xl my-5">
+
+            <div>
+              <h2 class="text-lg text-gray-500">Host / Teacher</h2>
+              <div class="flex items-center m-3">
+                <img class="h-11" src="img/Ellipse 349.png">
+                <div class="ml-5">
+                  <h2 class="font-semibold text-lg">Avinash Dave</h2>
+                  <div class="flex justify-between">
+                    <p class="text-SYellow mr-1 font-semibold">4.5</p>
+                    <p class="text-SYellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                      <span class="text-black font-semibold"> (120)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="text-lg text-gray-500">Enrolled Learners</h2>
+              <div class="flex items-center">
+                <img src="img/Ellipse 350.png">
+                <img src="img/Ellipse 349.png ">
+                <img src="img/Ellipse 351.png ">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="m-3 lg:w-3/5">
+          <h2 class="font-semibold text-2xl">Curriculum</h2>
+          <p class="p-4 ring-1 ring-gray-300 rounded-lg mt-3 overflow-scroll md:h-5/6">The violin course is designed to
+            provide comprehensive instruction and guidance for beginners and
+            intermediate learners looking to master the art of playing the violin. Throughout the course, students will
+            receive a well-structured curriculum that covers the essential aspects of violin playing, from the basics to
+            more advanced techniques. <br><br>
+
+            The course begins with an introduction to the violin, its parts, and how to properly hold the instrument and
+            the bow. Students will learn the fundamentals of reading sheet music and understanding musical notation
+            specific to the violin. <br><br>
+
+            As the course progresses, students will be introduced to basic bowing techniques, finger placements, and
+            scales. They will gradually advance to more complex bowing styles, vibrato, and shifting positions on the
+            fingerboard. Proper posture and hand positioning will be emphasized to ensure students develop good habits
+            and prevent injuries. <br><br>
+
+            Throughout the course, students will be exposed to a variety of musical pieces, ranging from classical to
+            contemporary, allowing them to apply their newly acquired skills and improve their performance abilities.
+            The violin course will also cover music theory relevant to the instrument, enabling students to grasp the
+            principles of harmony, rhythm, and musical expression, enhancing their overall musicianship. <br><br>
+
+            In addition to individual practice, the course may include ensemble playing opportunities, providing
+            students with the chance to collaborate with other musicians and develop their ensemble skills.
+            By the end of the course, students should have gained a solid foundation in violin playing, a good
+            understanding of music theory, and the ability to perform various pieces confidently. Whether pursuing a
+            professional music career or playing the violin for personal enjoyment, this course aims to equip students
+            with the necessary skills to continue advancing their musical journey.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-auto container px-5 mb-10 md:flex justify-between items-center text-center md:text-left">
+      <div>
+        <h2 class="text-lg text-gray-500">Pro Rated Price</h2>
+        <h3 class="text-3xl font-bold">$ 28.89 <span class="text-sm">(14 sessions)</span></h3>
+      </div>
+      <div class="grid sm:grid-cols-2 grid-cols-1 gap-3 mt-5">
+        <a class="lg:px-28 px-16 py-3  text-center w-full bg-brightPink text-white font-bold rounded-lg ">Apply To Learn</a>
+        <a class="lg:px-28 px-16 py-3   text-center w-full bg-white text-brightPink ring-1 ring-brightPink font-bold rounded-lg">Apply To Teach</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Footer Section  -->
+  <footer class="bg-DPurple p-14">
+    <div class="grid gap-4 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-col-1">
+      <div>
+        <img src="img/Group 22951.png" />
+        <p class="ml-2 mt-4 text-white">
+          EnthuZiastic is a vibrant and dynamic community dedicated to
+          fostering a passion for learning and personal growth.
+        </p>
+        <div class="flex container items-center ml-2 mt-5 mb-5">
+          <a href="#"><i class="fa-brands fa-linkedin mr-5 text-2xl text-white"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter mr-5 text-2xl text-white"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook mr-5 text-2xl text-white"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube mr-5 text-2xl text-white"></i></a>
+        </div>
+      </div>
+
+      <div class="lg:ml-5 md:ml-7 text-white">
+        <h3 class="font-semibold text-lg mt-2">COMPANY</h3>
+        <ul>
+          <li class="mt-3"><a href="#">About</a></li>
+          <li class="mt-3"><a href="#">Premium</a></li>
+          <li class="mt-3"><a href="#">Blog</a></li>
+          <li class="mt-3"><a href="#">Affiliate Program</a></li>
+          <li class="mt-3"><a href="#">Get Coupon</a></li>
+        </ul>
+      </div>
+
+      <div class="text-white">
+        <h3 class="font-semibold text-lg mt-2">HELP AND SUPPORT</h3>
+        <ul>
+          <li class="mt-3"><a href="#">Contact Us</a></li>
+          <li class="mt-3"><a href="#">Knowlege Center</a></li>
+          <li class="mt-3"><a href="#">Premium Support</a></li>
+          <li class="mt-3"><a href="#">Sponsorship</a></li>
+        </ul>
+      </div>
+
+      <div class="text-white">
+        <h3 class="font-semibold text-lg mt-2">RESOURCES</h3>
+        <ul>
+          <li class="mt-3"><a href="#">Third-Party Tools</a></li>
+          <li class="mt-3"><a href="#">Illustrations</a></li>
+          <li class="mt-3"><a href="#">Themesberg</a></li>
+          <li class="mt-3"><a href="#">Bluehost</a></li>
+          <li class="mt-3"><a href="#">Stock Photos</a></li>
+        </ul>
+      </div>
+
+      <div class="text-white mg:mt-2 md:ml-7">
+        <h3 class="font-semibold text-lg">LEGAL</h3>
+        <ul>
+          <li class="mt-3"><a href="#">Privacy Policy</a></li>
+          <li class="mt-3"><a href="#">Terms & Conditions</a></li>
+          <li class="mt-3"><a href="#">EULA</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="mt-10" />
+    <p class="text-white text-center mt-7">
+      © 2023 EnthuZiastic, Inc. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
